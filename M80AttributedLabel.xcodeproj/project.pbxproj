@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9B2CD12E1FD04041004FFE42 /* NSMutableAttributedString+M80.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1251FD04040004FFE42 /* NSMutableAttributedString+M80.m */; };
-		9B2CD12F1FD04041004FFE42 /* M80AttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD1261FD04040004FFE42 /* M80AttributedLabelAttachment.h */; };
+		9B2CD12F1FD04041004FFE42 /* M80AttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD1261FD04040004FFE42 /* M80AttributedLabelAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2CD1301FD04041004FFE42 /* M80AttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1271FD04040004FFE42 /* M80AttributedLabelAttachment.m */; };
 		9B2CD1311FD04041004FFE42 /* M80AttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1281FD04040004FFE42 /* M80AttributedLabel.m */; };
 		9B2CD1321FD04041004FFE42 /* M80AttributedLabelURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1291FD04040004FFE42 /* M80AttributedLabelURL.m */; };
-		9B2CD1331FD04041004FFE42 /* NSMutableAttributedString+M80.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12A1FD04040004FFE42 /* NSMutableAttributedString+M80.h */; };
-		9B2CD1341FD04041004FFE42 /* M80AttributedLabelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12B1FD04041004FFE42 /* M80AttributedLabelDefines.h */; };
-		9B2CD1351FD04041004FFE42 /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12C1FD04041004FFE42 /* M80AttributedLabel.h */; };
-		9B2CD1361FD04041004FFE42 /* M80AttributedLabelURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12D1FD04041004FFE42 /* M80AttributedLabelURL.h */; };
+		9B2CD1331FD04041004FFE42 /* NSMutableAttributedString+M80.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12A1FD04040004FFE42 /* NSMutableAttributedString+M80.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2CD1341FD04041004FFE42 /* M80AttributedLabelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12B1FD04041004FFE42 /* M80AttributedLabelDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2CD1351FD04041004FFE42 /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12C1FD04041004FFE42 /* M80AttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2CD1361FD04041004FFE42 /* M80AttributedLabelURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12D1FD04041004FFE42 /* M80AttributedLabelURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
