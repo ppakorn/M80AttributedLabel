@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1469F11FD06F150013C2A0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0C961E1FD0460800DFFF45 /* CoreText.framework */; };
 		9B2CD12E1FD04041004FFE42 /* NSMutableAttributedString+M80.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1251FD04040004FFE42 /* NSMutableAttributedString+M80.m */; };
 		9B2CD12F1FD04041004FFE42 /* M80AttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD1261FD04040004FFE42 /* M80AttributedLabelAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2CD1301FD04041004FFE42 /* M80AttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1271FD04040004FFE42 /* M80AttributedLabelAttachment.m */; };
@@ -38,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1469F11FD06F150013C2A0 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
