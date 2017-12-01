@@ -18,6 +18,7 @@
 /* Begin PBXFileReference section */
 		9B0C961E1FD0460800DFFF45 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		9B2A94D81FD15334000A43B3 /* M80AttributedLabel-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "M80AttributedLabel-umbrella.h"; sourceTree = "<group>"; };
+		9B2A94DF1FD15F6D000A43B3 /* M80AttributedLabel.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = M80AttributedLabel.modulemap; sourceTree = "<group>"; };
 		9B2CD11A1FD04032004FFE42 /* M80AttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M80AttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2CD11E1FD04032004FFE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2CD1251FD04040004FFE42 /* NSMutableAttributedString+M80.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+M80.m"; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 				9B2CD1251FD04040004FFE42 /* NSMutableAttributedString+M80.m */,
 				9B2CD11E1FD04032004FFE42 /* Info.plist */,
 				9B2A94D81FD15334000A43B3 /* M80AttributedLabel-umbrella.h */,
+				9B2A94DF1FD15F6D000A43B3 /* M80AttributedLabel.modulemap */,
 			);
 			path = M80AttributedLabel;
 			sourceTree = "<group>";
@@ -298,6 +300,7 @@
 				INFOPLIST_FILE = M80AttributedLabel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = M80AttributedLabel/M80AttributedLabel.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ampos.M80AttributedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -318,6 +321,7 @@
 				INFOPLIST_FILE = M80AttributedLabel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = M80AttributedLabel/M80AttributedLabel.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ampos.M80AttributedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
