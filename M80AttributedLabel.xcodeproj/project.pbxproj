@@ -8,19 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9B1469F11FD06F150013C2A0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0C961E1FD0460800DFFF45 /* CoreText.framework */; };
+		9B2A94D91FD153B6000A43B3 /* M80AttributedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2A94D81FD15334000A43B3 /* M80AttributedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2CD12E1FD04041004FFE42 /* NSMutableAttributedString+M80.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1251FD04040004FFE42 /* NSMutableAttributedString+M80.m */; };
-		9B2CD12F1FD04041004FFE42 /* M80AttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD1261FD04040004FFE42 /* M80AttributedLabelAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2CD1301FD04041004FFE42 /* M80AttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1271FD04040004FFE42 /* M80AttributedLabelAttachment.m */; };
 		9B2CD1311FD04041004FFE42 /* M80AttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1281FD04040004FFE42 /* M80AttributedLabel.m */; };
 		9B2CD1321FD04041004FFE42 /* M80AttributedLabelURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1291FD04040004FFE42 /* M80AttributedLabelURL.m */; };
-		9B2CD1331FD04041004FFE42 /* NSMutableAttributedString+M80.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12A1FD04040004FFE42 /* NSMutableAttributedString+M80.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B2CD1341FD04041004FFE42 /* M80AttributedLabelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12B1FD04041004FFE42 /* M80AttributedLabelDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B2CD1351FD04041004FFE42 /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12C1FD04041004FFE42 /* M80AttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B2CD1361FD04041004FFE42 /* M80AttributedLabelURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12D1FD04041004FFE42 /* M80AttributedLabelURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B0C961E1FD0460800DFFF45 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		9B2A94D81FD15334000A43B3 /* M80AttributedLabel-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "M80AttributedLabel-umbrella.h"; sourceTree = "<group>"; };
 		9B2CD11A1FD04032004FFE42 /* M80AttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M80AttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2CD11E1FD04032004FFE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2CD1251FD04040004FFE42 /* NSMutableAttributedString+M80.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+M80.m"; sourceTree = "<group>"; };
@@ -84,6 +81,7 @@
 				9B2CD12A1FD04040004FFE42 /* NSMutableAttributedString+M80.h */,
 				9B2CD1251FD04040004FFE42 /* NSMutableAttributedString+M80.m */,
 				9B2CD11E1FD04032004FFE42 /* Info.plist */,
+				9B2A94D81FD15334000A43B3 /* M80AttributedLabel-umbrella.h */,
 			);
 			path = M80AttributedLabel;
 			sourceTree = "<group>";
@@ -95,11 +93,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2CD12F1FD04041004FFE42 /* M80AttributedLabelAttachment.h in Headers */,
-				9B2CD1341FD04041004FFE42 /* M80AttributedLabelDefines.h in Headers */,
-				9B2CD1331FD04041004FFE42 /* NSMutableAttributedString+M80.h in Headers */,
-				9B2CD1361FD04041004FFE42 /* M80AttributedLabelURL.h in Headers */,
-				9B2CD1351FD04041004FFE42 /* M80AttributedLabel.h in Headers */,
+				9B2A94D91FD153B6000A43B3 /* M80AttributedLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
