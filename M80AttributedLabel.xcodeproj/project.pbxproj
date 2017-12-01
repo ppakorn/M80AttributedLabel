@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		9B1469F11FD06F150013C2A0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0C961E1FD0460800DFFF45 /* CoreText.framework */; };
 		9B2A94D91FD153B6000A43B3 /* M80AttributedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2A94D81FD15334000A43B3 /* M80AttributedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2A94E01FD16E0F000A43B3 /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12C1FD04041004FFE42 /* M80AttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2A94E11FD16E0F000A43B3 /* M80AttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD1261FD04040004FFE42 /* M80AttributedLabelAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2A94E21FD16E0F000A43B3 /* M80AttributedLabelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12B1FD04041004FFE42 /* M80AttributedLabelDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2A94E31FD16E0F000A43B3 /* M80AttributedLabelURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12D1FD04041004FFE42 /* M80AttributedLabelURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2A94E41FD16E0F000A43B3 /* NSMutableAttributedString+M80.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12A1FD04040004FFE42 /* NSMutableAttributedString+M80.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2CD12E1FD04041004FFE42 /* NSMutableAttributedString+M80.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1251FD04040004FFE42 /* NSMutableAttributedString+M80.m */; };
 		9B2CD1301FD04041004FFE42 /* M80AttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1271FD04040004FFE42 /* M80AttributedLabelAttachment.m */; };
 		9B2CD1311FD04041004FFE42 /* M80AttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD1281FD04040004FFE42 /* M80AttributedLabel.m */; };
@@ -96,6 +101,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2A94D91FD153B6000A43B3 /* M80AttributedLabel-umbrella.h in Headers */,
+				9B2A94E01FD16E0F000A43B3 /* M80AttributedLabel.h in Headers */,
+				9B2A94E11FD16E0F000A43B3 /* M80AttributedLabelAttachment.h in Headers */,
+				9B2A94E21FD16E0F000A43B3 /* M80AttributedLabelDefines.h in Headers */,
+				9B2A94E31FD16E0F000A43B3 /* M80AttributedLabelURL.h in Headers */,
+				9B2A94E41FD16E0F000A43B3 /* NSMutableAttributedString+M80.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
