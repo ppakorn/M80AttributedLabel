@@ -17,6 +17,7 @@
 		9B2CD1341FD04041004FFE42 /* M80AttributedLabelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12B1FD04041004FFE42 /* M80AttributedLabelDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2CD1351FD04041004FFE42 /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12C1FD04041004FFE42 /* M80AttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2CD1361FD04041004FFE42 /* M80AttributedLabelURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CD12D1FD04041004FFE42 /* M80AttributedLabelURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8220231FD11D7D00D84CF5 /* M80AttributedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8220221FD11D0000D84CF5 /* M80AttributedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9B2CD12B1FD04041004FFE42 /* M80AttributedLabelDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelDefines.h; sourceTree = "<group>"; };
 		9B2CD12C1FD04041004FFE42 /* M80AttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabel.h; sourceTree = "<group>"; };
 		9B2CD12D1FD04041004FFE42 /* M80AttributedLabelURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelURL.h; sourceTree = "<group>"; };
+		9B8220221FD11D0000D84CF5 /* M80AttributedLabel-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "M80AttributedLabel-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				9B2CD12A1FD04040004FFE42 /* NSMutableAttributedString+M80.h */,
 				9B2CD1251FD04040004FFE42 /* NSMutableAttributedString+M80.m */,
 				9B2CD11E1FD04032004FFE42 /* Info.plist */,
+				9B8220221FD11D0000D84CF5 /* M80AttributedLabel-umbrella.h */,
 			);
 			path = M80AttributedLabel;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8220231FD11D7D00D84CF5 /* M80AttributedLabel-umbrella.h in Headers */,
 				9B2CD12F1FD04041004FFE42 /* M80AttributedLabelAttachment.h in Headers */,
 				9B2CD1341FD04041004FFE42 /* M80AttributedLabelDefines.h in Headers */,
 				9B2CD1331FD04041004FFE42 /* NSMutableAttributedString+M80.h in Headers */,
