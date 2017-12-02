@@ -969,7 +969,12 @@ static dispatch_queue_t get_m80_attributed_label_parse_queue() \
             }
             if (url)
             {
-                [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
+                if (@available(iOS 10.0, *)) {
+                    [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
+                } else {
+                    // Fallback on earlier versions
+                    [[UIApplication sharedApplication] openURL:url];
+                }
             }
         }
         return YES;
